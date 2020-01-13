@@ -1,0 +1,36 @@
+{% extends "index.html" %}
+{% block content %}
+
+	<div class="content" id="experiment-article-section-4-content">
+		
+		<form action="#" method="POST" id="exp-form">
+			
+			<select id="lang">
+				<option value="-1" selected>--Select Language--</option>
+				<option value="1">English</option>
+				<option value="2">Hindi</option>	
+			</select>
+
+			<!-- <br/> -->
+			<p id="cor-tag"></p>
+			<select id="cor"></select>
+
+			<!-- <br/> -->
+			<p id="algo-tag"></p>
+			<select id="algo"></select>
+
+			<!-- <br/> -->
+			<p id="train-tag"></p>
+			<select id="train"></select>
+
+		</form>
+
+		<br/>
+		<button id="accuracy">Check Accuracy</button>
+		<br/>
+
+		<p id="ans"></p>
+
+	</div>
+
+{% endblock content %}
